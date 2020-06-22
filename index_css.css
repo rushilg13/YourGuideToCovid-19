@@ -1,0 +1,69 @@
+.row-header{
+	margin: 0px auto;
+	padding: 0px auto;
+}
+
+.row-content{
+	margin: 0px auto;
+	padding: 50px 0px 50px 0px;
+	border-bottom: 1px ridge;
+	min-height: 400px;	
+} 
+
+h1{
+	text-align: center;
+	color: floralwhite;
+}
+
+h3{
+	text-align: center;
+	color: black;
+
+}
+
+.footer{
+	background-color: #D1E4C9;
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+}
+
+.jumbotron{
+	padding: 70px 30px 70px 30px;
+	margin: 0px auto;
+	background-color: #9575CD;
+	color: floralwhite;
+}
+
+.address{
+	font-size: 80%;
+	margin: 0px;
+	color: #0f0f0f;
+}
+
+body{
+	padding: 50px 0px 0px 0px; 
+}
+
+.navbar-dark{
+	background-color: #512DA8;
+}
+
+.modal-body{
+	background-color: #9575CD;
+	color: floralwhite;
+}
+
+.modal-header{
+	background-color: #512DA8;
+}
+h3 .text-help{
+	color: floralwhite;
+}
+
+.close{
+	color: floralwhite;	
+}
+
+.string{
+	color: floralwhite;
+}

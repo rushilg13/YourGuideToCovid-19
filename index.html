@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <!-- CSS only -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="index_css.css">
+    <title>All About COVID-19</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand nr-auto" href="index.html"><img src="austin.png" class="img-fluid" height="30" width="61"></a>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                 <li class="nav-item"><a class="nav-link" href="blog.html"><span class="fa fa-comment fa-lg"></span> Blog</a></li>
+                  <li class="nav-item"><a class="nav-link" href="nearby.html"><span class="fa fa-map-marker fa-lg"></span> Nearby</a></li>
+                   <li class="nav-item"><a class="nav-link" href="contactus.html"><span class="fa fa-exclamation-triangle fa-lg"></span> Need help?</a></li>
+            </ul>
+            <span class="navbar-text">
+                <a href="" data-toggle="modal" data-target="#LoginModal">
+                    <span class="fa fa-sign-in"></span>Login</a>
+            </span>
+            </div>
+            
+        </div>
+        
+    </nav>
+            <div id="need_help" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-lg" role="content">
+                    <div class="modal-content">
+                    <div class="modal-header">
+
+                        <h3 class="text-help"><div class="string">Need Urgent Help?</div></h3>
+                        <button class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-row">
+                            
+                        
+                         <dt class="col-sm-2 form-group">Name</dt>
+                            <dd class="col-sm-3"><input type="text" name="Name1" placeholder="Name"></dd>
+                            <div class="offset-2"></div>
+                         <dt class="col-sm-2 form-group">Phone</dt>
+                         <dd class="col-sm-3"><input type="text" name="Phone" placeholder="Phone"></dd>
+                      </div>
+                      <div class="form-row">
+                        <dt class="col-sm-2">Address</dt>
+                        <dd class="col-sm-3"><input type="text" name="address" placeholder="Address"></dd>
+                        <div class="offset-2"></div>
+                        <dt class="col-sm-2">What's The Emergency</dt>
+                        <dd class="col-sm-3"><input type="text" name="Emergency" placeholder="Emergency"></dd>   
+                                        
+                        </div>
+                        <div class="form-row">
+                            <div class="offset-5"></div>
+                            <div class="btn">
+                            <input type="button" name="help" value="Contact Me" class="btn badge-danger">
+                        </div>
+                        </div>
+                    </dl>
+                    
+                    </div>
+                    
+                        
+                    </div>
+                </div>
+            </div>
+
+
+    <div id="LoginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title"><div class="string">Login</div></h4>
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-12 col-sm-4">
+                                <label class="col-form-label col-6">Email</label>
+                                <input type="text" name="Email" placeholder="Email" class="col-6 form-check-input">
+                            </div>
+                            <div class="form-group col-12 col-sm-4">
+                                <label class="col-form-label col-6">Password</label>
+                                <input type="text" name="Password" placeholder="Password" class="col-6 form-check-input">
+                             </div>
+
+                            <div class="form-group col-12 col-sm-auto">    
+                                <input type="checkbox" class=" align-self-center">
+                                <label class="col-form-label align-self-center">Remember Me</label>
+                             </div> 
+                        </div>
+                        <div class="form-row">
+                            <div class="offset-8"></div>
+                            <div class="button form-group text-center"><input type="submit" name="submit" value="CANCEL" class="btn btn-secondary"></div>
+
+                            <div class="button form-group text-center"><input type="submit" name="submit" value="SUMBIT" class="btn btn-success"></div>
+                        </div>
+                        <div class="modal-footer"></div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                    <h1>Your Complete Guide to COVID-19</h1>
+                    <p>Read Blogs, View current pandemic situation near you and Take a tour through some facts about COVID-19</p>
+                </div>
+
+                <div class="btn col-12 col-sm-3">
+                    <a data-target="#need_help" data-toggle="modal" data-html="true" title="Click to connect to emergency services" data-placement="bottom"> <input type="button" name="help" value="Need help?" class="btn btn-primary align-self-center"> </a>
+                    <style type="text/css"> .btn-primary{background-color: yellow; color: black; width: 300px;}</style>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col">
+                
+        </div>
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                <a href="blog.html"><h3>Blogs About Covid-19</h3></a>
+            </div>
+            <div class="col col-sm  order-sm-first col-md">
+                <div class="media">
+                    <img src="blog.jpg" class="d-flex mr-3 img-thumbnail align-self-center" alt="Blog" height="150" width="150">
+                    <div class="media-body">
+                    <h2 class="mt-0">Blog <span class="badge badge-danger">NEW</span> <span class="badge badge-pill badge-secondary">MUST-READ</span> </h2>
+                <p>Read stories by survivors and their families. Know how you can save yourself and your loved ones and stop the spread of the virus. Explore how people are living is different parts of the world.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4  order-sm-last col-md-3">
+                <a href="nearby.html"><h3>Cases Near You</h3></a>
+            </div>
+            <div class="col col-sm  order-sm-first col-md">
+                <div class="media">
+                <img class="d-flex mr-3 align-self-center img-thumbnail" src="nearby.png" alt="Near Me" height="150" width="150">
+                <div class="media-body">
+                   <h2>Cases Nearby <span class="badge badge-danger">CHECK</span></h2>
+                <p>Check how many cases have been registered near you. Fliter out areas and even check the number of active cases, deaths and recovered cases in countries all around the globe. </p> 
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                <a href="blog.html"><h3>COVID-19 FACTS</h3></a>
+            </div>
+            <div class="col col-sm order-sm-first col-md">
+                <div class="media">
+                    <img class="d-flex mr-3 align-self-center img-thumbnail" src="fact.png" alt="Facts" height="150" width="150">
+                    <div class="media-body">
+                        <h2>Learn More about The deadly Virus</h2>
+                
+                <p>Read legitimate facts about the virus to stay updated. News updates about drug trials and interviews with doctors at WHO </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+            
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="#">Nearby</a></li>
+                        <li><a href="contactus.html">Need help?</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 order-sm-first col-sm-5">
+                    <h5>Our Address</h5>
+                    <address class="address">
+		              121, Clear Water Bay Road<br>
+		              Clear Water Bay, Kowloon<br>
+		              HONG KONG<br>
+		              <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+		              <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+		              <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:covid19_guide@yahoo.com">covid19_guide@yahoo.com</a>
+		           </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><span class="fa fa-facebook-f fa-lg"></span></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="mailto:"><i class="fa fa-envelope fa-lg"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2020 Covid-19 Guide</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+
+            <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+       
+</body>
+
+</html>
